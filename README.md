@@ -16,7 +16,7 @@
 
 ### Creating a magic file
 - first, create the magic file
-`bash
+````bash
 <offset> <datatype> <regex> <filename> data
 # replace <offset> - number
 # replace <datatype> - can be string, ling, double, etc.
@@ -24,8 +24,8 @@
 # replace <filename>
 !:mime filename
 # create a mime(Multipurpose Internet Mail Extensions)
-`
+````
 - Second, compile the file
-`bash
+```bash
 file -C -m <filename.mgc>
-`
+````
