@@ -9,3 +9,7 @@
 - cp -un `file` -  copy only file that does not exist
 - [[:upper:]] - uppercase
 - mkdir -p `directory/directory1/directory2` - create a directory with trailing slash
+- flag -p - to show directories with a slash
+- flag -a - to display hidden files
+- flag -m - to display files with a comma
+- flag -v - to sort files
