@@ -1,5 +1,5 @@
 # DEVOPS
-### Shell commands
+## Shell commands
 - pwd: prints the current working directory
 - ls: list content of a directory
 - ls -l: Display current directory contents in a long format
@@ -13,3 +13,17 @@
 - flag -a - to display hidden files
 - flag -m - to display files with a comma
 - flag -v - to sort files
+
+### Creating a magic file
+- first, create the magic file
+`bash
+<offset> <datatype> <regex> <filename> data
+# replace <offset> - number
+# replace <datatype> - can be string, ling, double, etc.
+# replace <regex> - expression to match
+# replace <filename>
+`
+- Second, compile the file
+`bash
+file -C -m <filename.mgc>
+`
