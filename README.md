@@ -22,6 +22,8 @@
 # replace <datatype> - can be string, ling, double, etc.
 # replace <regex> - expression to match
 # replace <filename>
+!:mime filename
+# create a mime(Multipurpose Internet Mail Extensions)
 `
 - Second, compile the file
 `bash
