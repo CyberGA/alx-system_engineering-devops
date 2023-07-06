@@ -29,3 +29,7 @@
 ```bash
 file -C -m <filename.mgc>
 ````
+
+### Shell Permisssions
+- su <user> - Change user
+- groups - display the groups the current user is part of
