@@ -31,5 +31,13 @@ file -C -m <filename.mgc>
 ````
 
 ### Shell Permisssions
-- su <user> - Change user
+- su `user` - Change user
 - groups - display the groups the current user is part of
+- chmod `username file` -  change the owner of a file
+- g - represents user group
+- u - represents owner
+- o - represents others
+- a - represents all user
+- r - read permission (4 as the numerical val)
+- w - write permission (2 as the numerical val)
+- x - execute permission (1 as the numerical val)
