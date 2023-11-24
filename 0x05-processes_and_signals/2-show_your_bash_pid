@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Displays a list of currently running process.
+# shows all processes, for all users, including thos
+#+ which might not have a TTY
+# Show process hierarchy
+# Display in a user-oriented format
+
+ps -auxf | grep bash
