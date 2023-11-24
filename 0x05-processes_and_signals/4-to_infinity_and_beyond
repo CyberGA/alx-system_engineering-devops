@@ -1,9 +1,8 @@
 #!/usr/bin/bash
 # displays To infinity and beyond indefinitely
+#+ sleep 2 in between each iteration
 
-index=0
-
-while [ $index -ge 0 ]
+while true
 do
   echo "To infinity and beyond"
   sleep 2
