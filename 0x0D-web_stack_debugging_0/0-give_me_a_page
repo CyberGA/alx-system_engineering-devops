@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-echo "Hello Holberton"
+service apache2 start
