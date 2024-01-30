@@ -7,9 +7,4 @@ mkdir -p /var/www/html/
 sudo chmod -R 755 /var/www
 echo 'Hello World!' > /var/www/html/index.html
 sudo sed -i '/listen 80 default_server/a rewrite ^/redirect_me https://www.youtube.com/ permanent;' /etc/nginx/sites-available/default
-
-if [ "$(pgrep -c nginx)" -le 0 ]; then
-	service nginx start
-else
-	service nginx restart
-fi
+service nginx restart
